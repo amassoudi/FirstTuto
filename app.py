@@ -4,6 +4,10 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
+    """
+    Index page
+    :return: None
+    """
     return "Hello World!"
 
 
