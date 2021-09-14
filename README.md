@@ -14,3 +14,8 @@ Change by AMA
 Change AMA
 13 sept 2021
 21h41
+
+
+# add view
+
+Use URL **/add/3/4** for example to get "3+4=7"
