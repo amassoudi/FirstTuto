@@ -19,3 +19,5 @@ Change AMA
 # add view
 
 Use URL **/add/3/4** for example to get "3+4=7"
+
+# Add a paragraph for flask installation
