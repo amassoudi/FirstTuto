@@ -2,7 +2,8 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.route('/')
+
+@app.route("/")
 def hello():
     """
     Index page
@@ -11,10 +12,15 @@ def hello():
     return "Hello World!"
 
 
-@app.route('/add/<int:a>/<int:b>')
+@app.route("/add/<int:a>/<int:b>")
 def add(a, b):
     return f"{a}+{b}={a+b}"
 
 
-if __name__ == '__main__':
+@app.route("/mult/<int:a>/<int:b>")
+def mult(a, b):
+    return f"{a}*{b}={a*b}"
+
+
+if __name__ == "__main__":
     app.run(debug=True)
