@@ -69,6 +69,10 @@ def n(z):
     return 14 * z + 1
 
 
+def o(z):
+    return 15 * z
+
+
 def p(z):
     return 16 * z
 
