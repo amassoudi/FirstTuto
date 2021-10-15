@@ -63,6 +63,10 @@ def carre(a, b, c, d):
     return a == b and c == d
 
 
+def rectangle(a, b, c, d):
+    return a != b
+
+
 @app.route("/")
 def hello():
     """
