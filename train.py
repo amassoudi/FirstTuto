@@ -21,6 +21,7 @@ class TrainTaskCelery(TrainTask):
 
     def perform(self, *args, **kwargs):
         print(4)
+        print("I am in TrainTaskCelery.perform")
         return self.run(*args, **kwargs)
 
 
