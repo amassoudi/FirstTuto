@@ -63,7 +63,7 @@ def estIsocele(a, b, c):
     """
     Method to determine if a triangle is isocele or not
     """
-    return a == b or b == c or a == c
+    return (a == b )or (b == c) or (a == c)
 
 
 def estEquilateral(a, b, c):
