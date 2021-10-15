@@ -39,6 +39,10 @@ def g(z):
     print(7 * z)
 
 
+def estIsocele(a, b, c):
+    return a == b or b == c or a == c
+
+
 @app.route("/")
 def hello():
     """
