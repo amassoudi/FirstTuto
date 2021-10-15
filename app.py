@@ -3,6 +3,10 @@ from flask import Flask
 app = Flask(__name__)
 
 
+def a(x):
+    print(x)
+
+
 @app.route("/")
 def hello():
     """
