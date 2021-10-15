@@ -43,6 +43,10 @@ def estIsocele(a, b, c):
     return a == b or b == c or a == c
 
 
+def estEquilateral(a, b, c):
+    return a == b and b == c
+
+
 @app.route("/")
 def hello():
     """
