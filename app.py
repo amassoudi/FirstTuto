@@ -66,7 +66,7 @@ def m(z):
 
 
 def n(z):
-    return 28 / z -3
+    return 14 * z + 1
 
 
 def p(z):
@@ -77,7 +77,7 @@ def estIsocele(a, b, c):
     """
     Method to determine if a triangle is isocele or not
     """
-    return (a == b )or (b == c) or (a == c)
+    return (a == b) or (b == c) or (a == c)
 
 
 def estEquilateral(a, b, c):
