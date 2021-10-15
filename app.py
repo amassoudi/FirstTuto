@@ -107,6 +107,10 @@ def u(z):
     return 21 * z + 1
 
 
+def v(z):
+    return 22 * z
+
+
 def estIsocele(a, b, c):
     """
     Method to determine if a triangle is isocele or not
