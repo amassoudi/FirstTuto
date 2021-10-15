@@ -15,6 +15,10 @@ def c(z):
     print(3 * z)
 
 
+def d(x):
+    print(4 * x)
+
+
 def e(z):
     print(5 * z)
 
