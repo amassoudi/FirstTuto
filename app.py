@@ -65,6 +65,10 @@ def m(z):
     return 13 * z
 
 
+def n(z):
+    return 28 / z -3
+
+
 def estIsocele(a, b, c):
     """
     Method to determine if a triangle is isocele or not
