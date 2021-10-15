@@ -22,5 +22,10 @@ def mult(a, b):
     return f"{a}*{b}={a*b}"
 
 
+@app.route("/subst/<int:a>/<int:b>")
+def subst(a, b):
+    return f"{a}-{b}={a-b}"
+
+
 if __name__ == "__main__":
     app.run(debug=True)
