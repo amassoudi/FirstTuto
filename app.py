@@ -31,6 +31,10 @@ def f(z):
     print(6 * z)
 
 
+def g(z):
+    print(7 * z)
+
+
 @app.route("/")
 def hello():
     """
