@@ -79,6 +79,11 @@ def o(z):
 
 
 def p(z):
+    """
+    Docstrings for p
+    :param z:
+    :return:
+    """
     return 16 * z
 
 
