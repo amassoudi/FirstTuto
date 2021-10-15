@@ -14,6 +14,9 @@ def hello():
 
 @app.route("/add/<int:a>/<int:b>")
 def add(a, b):
+    """
+    Add two numbers and display the sum
+    """
     return f"{a}+{b}={a+b}"
 
 
