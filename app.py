@@ -91,7 +91,7 @@ def r(z):
 
 
 def s(z):
-    print("Ouaff")
+    return "Blabla
 
 
 def t(z):
