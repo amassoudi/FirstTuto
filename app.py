@@ -43,6 +43,10 @@ def h(z):
     print(8 * z)
 
 
+def i(z):
+    return 9 * z
+
+
 def estIsocele(a, b, c):
     return a == b or b == c or a == c
 
