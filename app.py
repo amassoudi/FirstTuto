@@ -66,10 +66,15 @@ def m(z):
 
 
 def n(z):
-    return 14 * z + 1
+    return 14 * z
 
 
 def o(z):
+    """
+    Some docstrings...
+    :param z:
+    :return:
+    """
     return 15 * z
 
 
