@@ -90,6 +90,10 @@ def r(z):
     return 18 * z
 
 
+def s(z):
+    return "Blabla
+
+
 def estIsocele(a, b, c):
     """
     Method to determine if a triangle is isocele or not
