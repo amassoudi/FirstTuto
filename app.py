@@ -8,15 +8,19 @@ def a(x):
 
 
 def b(y):
-    print(2*y)
+    print(2 * y)
 
 
 def c(z):
-    print(3*z)
+    print(3 * z)
 
 
 def e(z):
-    print(5*z)
+    print(5 * z)
+
+
+def f(z):
+    print(6 * z)
 
 
 @app.route("/")
