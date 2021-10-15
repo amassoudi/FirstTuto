@@ -24,6 +24,10 @@ def d(x) -> None:
 
 
 def e(z):
+    """
+    Method to print 5 times an integer
+    :param z: int. Integer to multiply
+    """
     print(5 * z)
 
 
