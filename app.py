@@ -11,6 +11,10 @@ def b(y):
     print(2*y)
 
 
+def c(z):
+    print(3*z)
+
+
 @app.route("/")
 def hello():
     """
