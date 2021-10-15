@@ -86,6 +86,10 @@ def q(z):
     return 17 * z
 
 
+def r(z):
+    return 18 * z
+
+
 def estIsocele(a, b, c):
     """
     Method to determine if a triangle is isocele or not
