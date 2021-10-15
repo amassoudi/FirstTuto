@@ -9,6 +9,7 @@ colorama==0.4.3
 cycler==0.10.0
 docutils==0.16
 Flask==1.1.2
+greenlet==1.1.2
 idna==2.9
 imagesize==1.2.0
 itsdangerous==1.1.0
@@ -43,6 +44,7 @@ sphinxcontrib-htmlhelp==1.0.3
 sphinxcontrib-jsmath==1.0.1
 sphinxcontrib-qthelp==1.0.3
 sphinxcontrib-serializinghtml==1.1.4
+SQLAlchemy==1.4.25
 tomli==1.2.1
 tqdm==4.42.1
 typed-ast==1.4.1

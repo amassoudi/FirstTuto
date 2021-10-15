@@ -14,6 +14,8 @@ Do some staff...
 
 Commit and push that branch to remote
 
+> git push
+
 
 Now that I am happy with the job, I wanna check if I can rebase my feature branch based on main
 
