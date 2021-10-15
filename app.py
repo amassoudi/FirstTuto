@@ -47,8 +47,12 @@ def i(z):
     return 9 * z
 
 
-def k(z):
+def j(z):
     return 10 * z
+
+
+def k(z):
+    return 11 * z
 
 
 def estIsocele(a, b, c):
