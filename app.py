@@ -94,6 +94,10 @@ def s(z):
     print("Ouaff")
 
 
+def t(z):
+    print("Miaou")
+
+
 def estIsocele(a, b, c):
     """
     Method to determine if a triangle is isocele or not
