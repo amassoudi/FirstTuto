@@ -72,6 +72,10 @@ def estEquilateral(a, b, c):
     return a == b and b == c
 
 
+def perimetre(r):
+    return 2 * pi * r
+
+
 @app.route("/")
 def hello():
     """
