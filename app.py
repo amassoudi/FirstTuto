@@ -46,6 +46,9 @@ def h(z):
 
 
 def i(z):
+    """
+    Docstrings on i
+    """
     return 9 * z
 
 
