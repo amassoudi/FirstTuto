@@ -15,6 +15,14 @@ def c(z):
     print(3 * z)
 
 
+def d(x) -> None:
+    """
+
+    :param x: int. parameter to be multiplied by 4
+    """
+    print(4 * x)
+
+
 def e(z):
     print(5 * z)
 
