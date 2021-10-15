@@ -1,15 +1,11 @@
 import re
 import time
 
-from sqlalchemy import Column, Integer, TIMESTAMP, func, String, ForeignKey
-from sqlalchemy import create_engine
-from sqlalchemy import event
-from sqlalchemy.ext.declarative import (
-    as_declarative,
-    declared_attr,
-    AbstractConcreteBase,
-)
-from sqlalchemy.orm import scoped_session, sessionmaker, relationship
+from sqlalchemy import (TIMESTAMP, Column, ForeignKey, Integer, String,
+                        create_engine, event, func)
+from sqlalchemy.ext.declarative import (AbstractConcreteBase, as_declarative,
+                                        declared_attr)
+from sqlalchemy.orm import relationship, scoped_session, sessionmaker
 
 engine = create_engine("sqlite:///test.db", convert_unicode=True, echo=False)
 Session = sessionmaker(autocommit=False, autoflush=False, bind=engine)
@@ -77,13 +73,8 @@ class KeywordEvent(Base, _Event):
 
 
 if __name__ == "__main__":
-    from sqlalchemy.orm import (
-        subqueryload,
-        eagerload,
-        joinedload,
-        contains_eager,
-        lazyload,
-    )
+    from sqlalchemy.orm import (contains_eager, eagerload, joinedload,
+                                lazyload, subqueryload)
 
     Base.metadata.create_all(bind=engine)
     for i in range(1000):
