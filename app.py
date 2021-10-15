@@ -47,6 +47,10 @@ def i(z):
     return 9 * z
 
 
+def k(z):
+    return 10 * z
+
+
 def estIsocele(a, b, c):
     return a == b or b == c or a == c
 
