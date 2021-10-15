@@ -5,6 +5,9 @@ class TrainTask:
         print(f"{cls.__name__}")
 
     def run(self, a, b):
+        """
+        Docstrings for run
+        """
         print(2)
         result = a + b.split()
         self._run(a, b)
