@@ -7,6 +7,10 @@ def a(x):
     print(x)
 
 
+def b(y):
+    print(2*y)
+
+
 @app.route("/")
 def hello():
     """
