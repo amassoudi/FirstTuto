@@ -59,6 +59,10 @@ def estEquilateral(a, b, c):
     return a == b and b == c
 
 
+def carre(a, b, c, d):
+    return a == b and c == d
+
+
 @app.route("/")
 def hello():
     """
