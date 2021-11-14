@@ -111,6 +111,11 @@ def v(z):
     return 22 * z
 
 
+def w(z):
+    print("test")
+    return 23 * z
+
+
 def estIsocele(a, b, c):
     """
     Method to determine if a triangle is isocele or not
